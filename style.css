@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    overflow:hidden;
+    background:#050816;
+    font-family:Arial, sans-serif;
+    color:white;
+}
+
+canvas{
+    display:block;
+}
+
+#info{
+    position:absolute;
+    top:15px;
+    left:15px;
+    width:300px;
+
+    background:rgba(0,0,0,0.6);
+
+    padding:15px;
+
+    border-radius:10px;
+
+    z-index:10;
+
+    line-height:1.5;
+}
+
+h2{
+    margin-top:0;
+}
